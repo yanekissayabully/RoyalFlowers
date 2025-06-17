@@ -24,7 +24,8 @@ export default function PrivacyPolicy() {
       <main className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-24 text-stone-700">
         <section className="space-y-8 text-base sm:text-lg font-light leading-relaxed">
           <p>
-            ООО &laquo;Роял Фловерс&raquo; (далее&nbsp;&mdash; «Оператор») уважает право Пользователя
+            Компания: ИП ЖУНУСОВ ДАМИР БАЙСАЛОВИЧ
+ (далее&nbsp;&mdash; «Оператор») уважает право Пользователя
             на&nbsp;конфиденциальность и&nbsp;стремится защищать персональные данные,
             которые обрабатываются в&nbsp;рамках предоставления своих услуг.
           </p>
@@ -65,7 +66,7 @@ export default function PrivacyPolicy() {
             отказаться от получения информационных сообщений, направив Оператору письмо на адрес
             электронной почты&nbsp;
             <a href="mailto:info@royalflowers.kz" className="text-rose-500 underline">
-              info@royalflowers.kz
+              royalflowers.kostanay@gmail.com
             </a>{' '}
             с пометкой
             &nbsp;«Отказ от уведомлений о новых продуктах и услугах и специальных предложениях».

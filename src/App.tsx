@@ -556,11 +556,11 @@ function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const openWhatsApp = () => {
-    window.open('https://wa.me/77777777777', '_blank');
+    window.open('https://wa.me/77719114491', '_blank');
   };
 
   const open2GIS = () => {
-    window.open('https://2gis.kz/almaty', '_blank');
+    window.open('https://2gis.kz/kostanaj/branches/70000001066076442/firm/70000001066076443/63.636548%2C53.214667?m=63.608932%2C53.195022%2F12.91', '_blank');
   };
 
   return (
