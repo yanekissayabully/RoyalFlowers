@@ -1,5 +1,6 @@
 import React from 'react';
 import { MapPin, Mail, Phone, Clock } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   const open2GIS = () => window.open('https://2gis.kz/kostanaj/branches/70000001066076442/firm/70000001066076443/63.636548%2C53.214667?m=63.608932%2C53.195022%2F12.91', '_blank');
@@ -42,7 +43,7 @@ export default function Footer() {
                   onClick={open2GIS}
                   className="text-xs sm:text-sm font-light hover:text-rose-400 cursor-pointer"
                 >
-                  Казахстан, г. Костанай, ул. Генерала Арстанбекова, дом 17/3
+                  Казахстан, 110000, Костанайская область, г. Костанай, ул. Генерала Арстанбекова, дом 17/3
                 </span>
               </div>
 
@@ -59,21 +60,24 @@ export default function Footer() {
           </div>
 
           {/* Навигация */}
-          <div className="space-y-4 sm:space-y-6">
-            <h4 className="font-light text-white text-base sm:text-lg">Навигация</h4>
-            <ul className="space-y-2 sm:space-y-3 text-sm">
-              <li>
-                <a href="/#about" className="font-light hover:text-rose-400 transition-colors">
-                  О нас
-                </a>
-              </li>
-              <li>
-                <a href="/privacy" className="font-light hover:text-rose-400 transition-colors">
-                  Политика конфиденциальности
-                </a>
-              </li>
-            </ul>
-          </div>
+<div className="space-y-4 sm:space-y-6">
+  <h4 className="font-light text-white text-base sm:text-lg">Навигация</h4>
+  <ul className="space-y-2 sm:space-y-3 text-sm">
+    <li>
+      <a href="/#about" className="font-light hover:text-rose-400 transition-colors">
+        О нас
+      </a>
+    </li>
+    <li>
+      <Link
+        to="/privacy"
+        className="font-light hover:text-rose-400 transition-colors"
+      >
+        Политика конфиденциальности
+      </Link>
+    </li>
+  </ul>
+</div>
 
           {/* Контакты */}
           <div className="space-y-4 sm:space-y-6">
